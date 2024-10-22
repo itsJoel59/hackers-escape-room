@@ -4,24 +4,31 @@ body {
     margin: 0;
 
     .roboto-regular {
+
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
+
       }
       
       .roboto-bold {
+
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-style: normal;
+
       }
       
       .roboto-regular-italic {
+
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: italic;
+
       }
       
 }
+
 .header {
 
     background-color: #011827;
@@ -35,6 +42,7 @@ body {
 
 .header-objects {
 
+    width: 100%;
     max-width: 219px;
     display: flex;
     justify-content: flex-start;
@@ -46,6 +54,7 @@ body {
     width: 128px;
     height: 82px;
     object-fit: contain;
+
 }
 
 #title {
@@ -56,4 +65,14 @@ body {
     margin-bottom: 0;
     color: #FFFFFF;
     font-size: 1.5rem;
+
+}
+
+#hacker-image {
+
+    object-fit: cover;
+    width: 100%;
+    min-height: 274px;
+
+
 }
