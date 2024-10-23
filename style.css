@@ -146,3 +146,98 @@ body {
     font-size: 1.125rem;
 
 }
+
+#challenges-header {
+
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 6.5625rem;
+
+}
+
+.challenges {
+
+    margin-left: 3.25rem;
+
+}
+
+.challenge {
+
+    height: 446px;
+    width: 363px;
+    border-radius: 8px;
+    box-shadow: 4px 8px 10px #B6BDB5;
+
+}
+
+.challenge-pic {
+
+    object-fit: fill;
+    height: 219px;
+    width: 363px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.challenge-title {
+
+    font-size: 1.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.125rem;
+    margin-left: 1.06rem;
+
+}
+
+.stars-and-participants {
+
+    display: flex;
+    margin-top: 0.125rem;
+    margin-left: 1.06rem;
+
+}
+
+.star {
+
+    object-fit: contain;
+    height: 26px;
+    width: 23.08px;
+    scale: 0.7;
+    align-self: center;
+
+}
+
+.participants {
+    
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 0.7rem;
+    align-self: center;
+    font-size: 0.875rem;
+
+}
+
+.challenge-description {
+
+    margin-top: 1.0rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1.0625rem;
+    margin-left: 1.125rem;
+    font-size: 1.125rem;
+
+}
+
+.button-book {
+
+    margin-top: 0.3125rem;
+    margin-right: 1.125rem;
+    margin-bottom: 0.75rem;
+    padding: 0.78125rem 2.15625rem;
+    border-width: 0;
+    border-radius: 8px;
+    float: right;
+    background-color: #E3170A;
+    color: #FFFFFF;
+    font-size: 1rem;
+    
+}
