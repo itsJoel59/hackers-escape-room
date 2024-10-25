@@ -155,18 +155,34 @@ body {
 
 }
 
-.challenges {
+#challenges {
 
-    margin-left: 3.25rem;
+    margin-left: 0.88rem;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+#challenges::-webkit-scrollbar {
+
+    display: none;
 
 }
 
 .challenge {
 
+    margin-left: 2.37rem;
+    margin-bottom: 2.94rem;
     height: 446px;
     width: 363px;
     border-radius: 8px;
     box-shadow: 4px 8px 10px #B6BDB5;
+    
+
+}
+#last-challenge {
+
+    margin-right: 4.06rem;
 
 }
 
