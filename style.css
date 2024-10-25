@@ -257,3 +257,36 @@ body {
     font-size: 1rem;
     
 }
+
+#story {
+
+    margin-top: 3.50rem;
+    height: 31.25rem;
+    background-color: #011827;
+    padding: 1.56rem 1.25rem;
+
+}
+
+#story-teaser {
+
+    text-align: center;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+
+}
+
+#read-story-button {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.63rem;
+    font-size: 1.5rem;
+    color:#8ACFE5;
+    background-color: #011827;
+    border-color: #8ACFE5;
+    border-radius: 0.25rem;
+    border-width: 0.125rem;
+    padding: 1.19rem 3.44rem;
+
+}
