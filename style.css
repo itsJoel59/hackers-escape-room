@@ -29,7 +29,7 @@ body {
       
 }
 
-.header {
+#header {
 
     background-color: #011827;
     padding-top: 1.625rem;
@@ -329,4 +329,42 @@ body {
 
     margin-top: 4rem;
 
+}
+
+#footer {
+
+    background-color: #011827;
+    color: #FFFFFF;
+    padding: 4rem 1.25rem 0.63rem 1.44rem;
+    margin-top: 6.13rem;
+
+}
+
+.footer-font-size {
+
+    font-size: 1.125rem;
+
+}
+
+#sitemap-header {
+
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+#follow-us-header {
+
+    margin-top: 2.81rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.link {
+
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.125rem;
+    
 }
