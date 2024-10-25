@@ -290,3 +290,37 @@ body {
     padding: 1.19rem 3.44rem;
 
 }
+
+.ad-pic {
+
+    width: 100%;
+    height: 18.75rem;
+
+}
+
+
+.ad-header {
+
+    font-size: 2rem;
+    margin: 1.875rem 1.25rem 0;
+
+}
+
+.ad-description {
+
+    font-size: 1.5rem;
+    margin: 1.875rem 1.25rem 0;
+
+}
+
+.ad-button {
+
+    display: block;
+    background-color: #E3170A;
+    color: #FFFFFF;
+    border-width: 0;
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    padding: 1.19rem 3.25rem;
+    margin: 3.13rem 9.44rem 0 1.31rem;
+}
