@@ -1,7 +1,11 @@
+/* Mobile-version (Mobile first) */
+
 body {
 
     font-size: 100%;
     margin: 0;
+
+    /* 3 classes for the fonts used */
 
     .roboto-regular {
 
@@ -395,6 +399,8 @@ body {
     
 }
 
+/* Desktop-version */
+
 @media screen and (min-width: 1200px) {
 
     #title {
@@ -611,6 +617,8 @@ body {
     }
     
 }
+
+/* Centering page after 1600px width */
 
 @media screen and (min-width: 1400px) {
 
