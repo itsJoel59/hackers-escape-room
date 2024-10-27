@@ -95,8 +95,9 @@ body {
 
 .onsite {
 
+    width: 19.25rem;
+    height: 4.13rem;
     font-size: 1.5rem;
-    padding: 19px 52px;
     border-width: 0;
     border-radius: 0.25rem;
     background: #8ACFE5;
@@ -434,6 +435,40 @@ body {
         object-fit: cover;
         width: 100%;
     
+    }
+
+    .online {
+
+        font-size: 1.5rem;
+        width: 19.25rem;
+        height: 4.13rem;
+        border-width: 0;
+        border-radius: 0.25rem;
+        color: #FFFFFF;
+        background: #E3170A;
+        text-decoration: none;
+        margin: 0;
+
+    }
+
+    .onsite {
+
+        margin: 0;
+
+    }
+
+    .onsite-online-buttons {
+
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+
+    .first-buttons {
+
+        margin-top: -2rem;
+
     }
     
 }
