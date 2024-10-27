@@ -575,6 +575,40 @@ body {
         grid-row: 1;
 
     }
+
+    #footer {
+
+        margin-top: 11.4rem;
+        padding-top: 9.125rem;
+        padding-bottom: 10.9rem;
+        padding-left: 6.8rem;
+        display: flex;
+
+    }
+
+    #footer h2 {
+
+        margin-top: 0;
+
+    }
+
+    #site-description {
+
+        max-width: 26rem;
+
+    }
+
+    #sitemap {
+
+        margin-left: 14.5rem;
+
+    }
+
+    #follow-us {
+
+        margin-left: 8.1rem;
+
+    }
     
 }
 
