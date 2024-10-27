@@ -279,15 +279,20 @@ body {
 #story {
 
     margin-top: 3.50rem;
-    height: 31.25rem;
+    height: auto;
+    width: 100%;
     background-color: #011827;
-    padding: 1.56rem 1.25rem;
+    padding-top: 5.94rem;
+    padding-bottom: 5.69rem;
 
 }
 
 #story-teaser {
 
+    width: 90%;
+    margin: auto;
     text-align: center;
+    max-width: 39.5rem;
     font-size: 1.75rem;
     color: #FFFFFF;
 
@@ -313,7 +318,6 @@ body {
 
     object-fit: cover;
     width: 100%;
-    height: 18.75rem;
 
 }
 
@@ -414,6 +418,7 @@ body {
 
         display: flex;
         justify-content: space-evenly;
+        list-style: none;
 
     }
 
@@ -483,12 +488,103 @@ body {
         gap: 1.31rem;
         justify-content: center;
         padding: 0 6.69rem;
+        margin-bottom: 6.75rem;
 
     }
 
     #review-2 {
 
         display: grid;
+
+    }
+
+    #popular-challenges-section {
+
+        margin-bottom: 5.44rem;
+        width: 100%;
+
+    }
+
+    #challenges-header {
+
+        margin-bottom: 5.44rem;
+
+    }
+
+    #challenges {
+
+        justify-content: center;
+
+    }
+
+    .second-buttons {
+
+        margin-bottom: 5.44rem;
+
+    }
+
+    #story {
+
+        padding-top: 7.7rem;
+        padding-bottom: 8.9rem;
+        width: 100%;
+
+    }
+
+    .ad {
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+
+    .ad-header, .ad-button, .ad-description {
+
+        margin: 0;
+
+    }
+
+    .ad-header, .ad-description {
+
+        margin-bottom: 1.56rem;
+
+    }
+
+    .ad-info {
+
+        padding: 3.75rem 6.75rem 0 7.25rem;
+
+    }
+
+    #play-online-or-visit {
+
+        margin-top: 0;
+
+    }
+
+    #play-online-pic {
+
+        grid-column-start: 2;
+        grid-row: 1;
+
+    }
+
+    #play-online-info {
+
+        grid-column-start: 1;
+        grid-row: 1;
+
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
 
     }
     
