@@ -40,27 +40,32 @@ body {
 
 }
 
-.header-objects {
+.logo-and-title {
 
-    width: 100%;
-    max-width: 219px;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
 
 }
 
+#desktop-nav-section {
+
+    display: none;
+
+}
+
 #logo {
 
-    width: 128px;
-    height: 82px;
+    width: 20%;
+    height: 50.75rem;
     object-fit: contain;
 
 }
 
 #title {
 
-    height: 84px;
-    margin-left: 13px;
+    width: 80%;
+    margin-left: 0.8rem;
     margin-top: 0;
     margin-bottom: 0;
     color: #FFFFFF;
@@ -194,7 +199,7 @@ body {
 
 .challenge-pic {
 
-    object-fit: fill;
+    object-fit: cover;
     height: 219px;
     width: 363px;
     border-top-left-radius: 8px;
@@ -299,6 +304,7 @@ body {
 
 .ad-pic {
 
+    object-fit: cover;
     width: 100%;
     height: 18.75rem;
 
@@ -307,15 +313,18 @@ body {
 
 .ad-header {
 
+    margin: 1.875rem auto 0;
+    width: 90%;
     font-size: 2rem;
-    margin: 1.875rem 1.25rem 0;
 
 }
 
 .ad-description {
 
+    margin: auto;
+    width: 90%;
     font-size: 1.5rem;
-    margin: 1.875rem 1.25rem 0;
+    /* margin: 1.875rem 1.25rem 0; */
 
 }
 
@@ -341,7 +350,7 @@ body {
 
     background-color: #011827;
     color: #FFFFFF;
-    padding: 4rem 1.25rem 0.63rem 1.44rem;
+    padding: 4rem 1.25rem 1.88rem 1.44rem;
     margin-top: 6.13rem;
 
 }
@@ -376,6 +385,42 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+
+    #title {
+
+        font-size: 2.5rem;
+        margin: 0;
+        padding-top: 2rem;
+        text-align: center;
+
+    }
+
+    #desktop-nav-section {
+
+        margin-top: 3.63rem;
+        margin-bottom: 1.4rem;
+        display: block;
+    
+    }
+
+    #nav-list {
+
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #nav-list li {
+
+        font-size: 1.5rem;
+
+    }
+
+    .link:hover {
+
+        color: #8ACFE5;
+
+    }
 
     #hacker-image-mobile {
 
