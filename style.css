@@ -124,6 +124,12 @@ body {
 
 }
 
+#review-2 {
+
+    display: none;
+
+}
+
 .review {
 
     display: grid;
@@ -468,6 +474,21 @@ body {
     .first-buttons {
 
         margin-top: -2rem;
+
+    }
+
+    #reviews {
+
+        display: flex;
+        gap: 1.31rem;
+        justify-content: center;
+        padding: 0 6.69rem;
+
+    }
+
+    #review-2 {
+
+        display: grid;
 
     }
     
