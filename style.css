@@ -74,11 +74,17 @@ body {
 
 }
 
-#hacker-image {
+#hacker-image-mobile {
 
     object-fit: cover;
     width: 100%;
     min-height: 274px;
+
+}
+
+#hacker-image-desktop {
+
+    display: none;
 
 }
 
@@ -366,5 +372,23 @@ body {
     color: #FFFFFF;
     display: block;
     font-size: 1.125rem;
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    #hacker-image-mobile {
+
+        display: none;
+    
+    }
+    
+    #hacker-image-desktop {
+    
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    
+    }
     
 }
