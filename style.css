@@ -33,6 +33,71 @@ body {
       
 }
 
+.hidden {
+
+    display: none;
+
+}
+
+.visible {
+
+    display: block;
+
+}
+
+.overlay {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+
+}
+
+#mobile-menu {
+
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: #011827;
+    padding: 2rem;
+
+}
+
+#close-button-wrapper {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#menu-close-button img {
+
+    
+    object-fit: contain;
+
+} 
+
+#menu-links {
+
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+#menu-links a {
+
+    margin-top: 3rem;
+    font-size: 1.7rem;
+
+}
+
 #header {
 
     background-color: #011827;
