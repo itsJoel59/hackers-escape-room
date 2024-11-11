@@ -39,12 +39,6 @@ body {
 
 }
 
-.visible {
-
-    display: block;
-
-}
-
 .overlay {
 
     position: fixed;
@@ -54,7 +48,28 @@ body {
     bottom: 0;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
-    display: block;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.15s;
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#mobile-menu-icon {
+
+    position: absolute;
+    top: 1.8rem;
+    right: 1.5rem;
 
 }
 
@@ -474,6 +489,18 @@ body {
         margin: 0;
         padding-top: 2rem;
         text-align: center;
+
+    }
+
+    #mobile-menu-icon {
+
+        display: none;
+
+    }
+
+    .overlay {
+
+        display: none;
 
     }
 

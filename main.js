@@ -5,12 +5,12 @@ menuIconContainer.setAttribute('id', 'mobile-menu-icon');
 const menuIcon = document.createElement('span');
 menuIcon.setAttribute('id', 'menu-icon');
 menuIcon.innerHTML = "<img src='resources/Group 7.png'>";
+
 menuIconContainer.appendChild(menuIcon);
 header.appendChild(menuIconContainer);
 
 const overlay = document.createElement('div');
-overlay.setAttribute('class', 'overlay');
-// menu.setAttribute('class', 'hidden');
+overlay.setAttribute('class', 'overlay hidden');
 document.querySelector('body').appendChild(overlay);
 const menu = document.createElement('div');
 menu.setAttribute('id', 'mobile-menu');
@@ -22,6 +22,30 @@ closeBtn.setAttribute('id', 'menu-close-button');
 closeBtn.innerHTML = "<img src='resources/close.png'>";
 closeBtnWrapper.appendChild(closeBtn);
 menu.appendChild(closeBtnWrapper);
+
+menuIcon.addEventListener(
+
+    "click", 
+
+    function(event) {
+
+        overlay.classList.remove('hidden');
+        console.log('successfully showing menu');
+
+    }, false
+);
+
+closeBtn.addEventListener(
+
+    'click', 
+
+    function(event) {
+
+        overlay.classList.add('hidden');
+        console.log('successfully removed menu')
+
+    }
+)
 
 const menuLinks = document.createElement('div');
 menuLinks.setAttribute('id', 'menu-links');
@@ -42,13 +66,5 @@ links.forEach((element) => {
 
 })
 
-menuIcon.addEventListener(
 
-    "click", 
-    function(event) {
-
-        
-
-    }
-)
 
